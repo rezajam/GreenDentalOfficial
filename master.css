@@ -1,0 +1,502 @@
+/*========================CONTACTS=======================  */
+:root{
+  --greenOriginal:  #35fa80;
+  --greenDarker: #009933;
+  --paddingRL: 3%;
+  --redOriginal: #FD4040;
+  --blueOriginal: #83E0FF;
+}
+
+body{
+  /* background: grey; */
+  color: black;
+  /* font-size: 50px; */
+  /* background:#FFFFF0 */
+}
+
+.numAndAddTopContainer {
+  padding: 0;
+  margin: 0;
+}
+
+.impNav {
+  margin-top: 150px;
+}
+
+.navbar {
+  top: 30px;
+}
+
+.officehours{
+  font-size: 30px;
+}
+
+#closedBoxOfficeHours {
+  background-color: var(--redOriginal);
+  /* background-color: var(--redOriginal); */
+  border-radius: 8px;
+  padding: 2px;
+}
+
+#closedTextOfficeHours {
+  font-weight:bold;
+  color: var( --redOriginal);
+}
+
+
+
+
+#openBoxOfficeHours {
+  background-color: var(--greenOriginal);
+  /* background-color: var(--redOriginal); */
+  border-radius: 8px;
+  padding: 2px;
+}
+
+#openTextOfficeHours {
+  font-weight:bold;
+  color: var( --greenOriginal);
+}
+
+#neonGreenText{
+  color: var(--greenOriginal);
+}
+
+
+
+
+#neonBlueText{
+  color: var(--blueOriginal);
+  -webkit-transition: text-shadow 0.5s; /* For Safari 3.1 to 6.0 */
+  transition: text-shadow 0.5s;
+  transition-timing-function: ease-in-out;
+
+  text-shadow: 1px 1px 2px black, 0 0 80px cyan, 0 0 80px cyan;
+}
+#neonBlueText:hover {
+  text-shadow: 1px 1px 2px black, 0 0 80px cyan, 0 0 80px cyan;
+}
+
+
+#neonRedText{
+  color: var(--redOriginal);
+  -webkit-transition: text-shadow 0.5s; /* For Safari 3.1 to 6.0 */
+  transition: text-shadow 0.5s;
+  transition-timing-function: ease-in-out;
+
+  text-shadow: 1px 1px 2px black, 0 0 80px red, 0 0 80px red;
+}
+#neonRedText:hover {
+  text-shadow: 1px 1px 2px black, 0 0 80px red, 0 0 80px red;
+}
+
+.dis{
+  float: right;
+  padding-left: 15%;
+
+
+}
+
+.glyphicon-earphone {
+  padding-left: 10%;
+}
+
+.glyphicon-map-marker, .maps {
+  float: right;
+  padding-right: 10%;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .glyphTop {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .glyphicon-earphone {
+    padding-Left: 60%;
+  }
+
+  .glyphicon-envelope {
+    float: none;
+    padding-Left: -10%;
+  }
+
+  .glyphicon-map-marker {
+    float: none;
+    padding-right: 60%;
+  }
+
+}
+
+
+#numAndAddTop {
+  background-color: #313131;
+  /* background-color: #ECECEC; */
+  color: var(--greenOriginal);
+  padding: 0;
+  height: 30px;
+  font-size: 20px;
+}
+
+.active{
+  background: var(--greenOriginal);
+}
+
+#paddingPhoneContact {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#googleMap{
+  padding-left: var(--paddingRL);
+  padding-right: var(--paddingRL);
+  padding-bottom: 5%;
+}
+
+
+.boxMapandDirection {
+  width: 50%;
+  height: 70px;
+  background-color: var(--greenOriginal);
+  color: white;
+  padding: 10px;
+}
+.text-map {
+  padding: 3%;
+}
+
+.navbarParent{
+
+}
+.btn{
+  display: inline-block;
+  /* height: 50px;
+  width: 10%; */
+  background: var(--greenOriginal);
+  /* margin: 1%; */
+  border-radius: 10px;
+  text-align: center;
+  transition:  background 0.2s;
+  transition-timing-function:ease-in;
+  border: none;
+}
+
+.jumbotron{
+  border-radius: 0%;
+  margin: 10px;
+}
+
+
+.header{
+  background: black;
+}
+
+li{
+  transition: background 0.2s;
+  transition-timing-function:ease-in-out;
+}
+
+
+.btn2:hover{
+  background: var(--greenOriginal);
+}
+
+.btn:hover{
+
+  background: white;
+}
+
+.Pix{
+  background: black;
+  color: white;
+  padding: 10px;
+  font-weight: lighter;
+}
+
+#active{
+  background: var(--greenOriginal);
+}
+
+#docsText{
+  color: black;
+}
+
+.brand-centered {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 10px;
+}
+.brand-centered .navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.navbar-toggle {
+    z-index: 1;
+    background: var(--greenOriginal);
+    border: 0;
+
+}
+
+.icon-bar{
+  background-color: white;
+}
+
+
+
+
+
+/* CSS Transform Align Navbar Brand Text ... This could also be achieved with table / table-cells */
+.navbar-alignit .navbar-header {
+	 -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  height: 50px;
+}
+.navbar-alignit .navbar-brand {
+	top: 20%;
+	display: block;
+	position: relative;
+	height: auto;
+	transform: translate(0,-50%);
+	margin-right: 15px;
+  margin-left: 15px;
+}
+
+#navbar9{
+  background: var(--greenOriginal);
+}
+
+.dropdown-menu{
+  background-color: var(--greenOriginal);
+}
+
+
+.nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.navbar-toggle {
+  padding: 10px;
+  margin: 25px 20px 25px 0;
+}
+
+
+
+
+
+
+
+.navbar-nav>li>.dropdown-menu {
+	z-index: 9999;
+}
+
+.navbar-brand {
+  height: 60px;
+  padding: 10px;
+}
+.navbar-brand>img {
+  height: 120%;
+  padding: 10px;
+  width: auto;
+}
+/*========================CONTACTS=======================  */
+
+/*========================SERVICES=======================  */
+
+/* .container {
+  background-color: white;
+} */
+
+body{
+    /* background-image: url("https://thumbs.gfycat.com/LiquidHandyAfricanmolesnake-size_restricted.gif"); */
+    /* background-size: contain;
+    background-color: rgba(0, 0, 0, 0.5); */
+}
+
+img {
+  max-width: 100%;
+
+}
+
+.imp {
+    color: var(--greenOriginal);
+    -webkit-transition: text-shadow 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: text-shadow 0.5s;
+    transition-timing-function: ease-in-out;
+
+    /* text-shadow: 1.2px 1.2px 1px black, 0 0 80px var(--greenOriginal), 0 0 80px var(--greenOriginal); */
+}
+
+#img {
+  font-size: 20px;
+  font-family: helvetica;
+  font-weight: lighter;
+}
+
+
+.text-Container {
+  padding: 30px 40px 20px 40px;
+  background: white;
+  margin-right: 0;
+  margin-left: 0;
+  width: 100%;
+}
+
+/* .text-Container:nth-child(2n+1){ */
+.text-ContainerGreen {
+  padding: 30px 40px 20px 40px;
+  margin-right: 0;
+  margin-left: 0;
+  width: 100%;
+  background: linear-gradient(-160deg, #3aa895, #3dc890, #bcee8f);
+  /* background: linear-gradient(180deg, #3dc895,#3dc885, #bcee8d); */
+  /* background: linear-gradient(180deg, #3dc895,#3dc885, white); */
+}
+
+.appointment{
+  padding: 10px;
+}
+
+.bottomGlyph {
+  float: none;
+  padding: 0%  10% 0% 10%;
+  color: var(--greenOriginal);
+  font-size: 35px;
+  transition: text-shadow 0.2s;
+  transition-timing-function: ease-in-out;
+
+}
+
+.bottomGlyph:hover {
+  text-shadow: 1px 1px 2px black, 0 0 80px var(--greenOriginal), 0 0 80px var(--greenOriginal);
+  text-decoration: none;
+  color: var(--greenOriginal);
+
+}
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding: 0 10% 0 20% ;
+
+}
+
+.wrapper > div:nth-child(even) {
+  padding: 10px 0px 10px 0px;
+}
+
+.wrapper > div:nth-child(odd){
+  padding: 10px 0px 10px 0%;
+
+
+}
+
+#openBtm{
+  color: var(--blueOriginal);
+  font-weight: bold;
+}
+
+#closedBtm{
+  color: var(--redOriginal);
+  font-weight: bold;
+}
+
+.btmText {
+  /* padding: 0 20px 0 20px; */
+
+}
+
+/* textarea {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  width: 100%;
+
+
+} */
+
+.list-group-item {
+  /* margin: 10px; */
+  /* padding: 30px; */
+  /* text-align: center; */
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  background-image: linear-gradient(to right, #3aa895 0%, #3dc890 51%, #bcee8f 100%);
+
+  /* font-size: 72px; */
+
+
+}
+
+.list-group-item:hover {
+  background-position: right;
+
+}
+
+.list-group2 {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.list-group-item2 {
+  flex: 1 1 auto;
+  /* margin: 10px; */
+  padding: 20px;
+  /* text-align: center; */
+  text-align: justify;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: black;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  background-image: linear-gradient(to right, #3aa895 0%, #acee3f 25%,  #35fa80 100%);
+  /* background: -webkit-linear-gradient(#eee, #333); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+}
+
+.list-group-item2:hover {
+  background-position: right;
+  font-size: 20px;
+
+}
+
+.text-ContainerBlue {
+  background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+  transition: 1s;
+  background-size: 200%;
+  width: 100%;
+  color: white;
+  padding: 40px;
+  font-size: 20px;
+  line-height: 25px;
+
+}
+.text-ContainerBlue:hover {
+  background-position: right;
+}
+
+.slideShow {
+  width: 100%;
+  background-size: cover;
+}
+
+
+
+
+
+/*========================SERVICES=======================  */
